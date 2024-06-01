@@ -1,0 +1,33 @@
+{
+  "name": "dekate/kiriminwa",
+  "description": "Php implementation for KiriminWa",
+  "type": "library",
+  "license": "MIT",
+  "require": {
+    "php": "^7.2.5|^8"
+  },
+  "suggest": {
+    "guzzlehttp/guzzle": "Guzzle is a PHP HTTP client that makes it easy to send HTTP requests and trivial to integrate with web services.",
+    "illuminate/support": "Already included within laravel project. Version: ^8|^9|^10|^11",
+    "illuminate/http": "Already included within laravel project. Version: ^8|^9|^10|^11"
+  },
+  "autoload": {
+    "psr-4": {
+      "KiriminWa\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "KiriminWa\\KiriminWaServiceProvider"
+      ]
+    }
+  },
+  "authors": [
+    {
+      "name": "SusuTawar",
+      "email": "realsusutawar@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable"
+}
